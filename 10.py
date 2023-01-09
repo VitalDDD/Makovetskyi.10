@@ -36,7 +36,7 @@ def u_numbers(spis):
     else:
         print("The list contains non-unique numbers")
 
-
+#Клас виключення
 class MyError(Exception):
 
     def __init__(self, msg):
